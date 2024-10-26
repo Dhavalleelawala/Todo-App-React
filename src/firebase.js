@@ -1,12 +1,12 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyChlOMvCtrq-aa6Uk2d7RNvS0BQ5nAZ2_g",
-    authDomain: "dhaval-todo-app.firebaseapp.com",
-    projectId: "dhaval-todo-app",
-    storageBucket: "dhaval-todo-app.appspot.com",
-    messagingSenderId: "1335798219",
-    appId: "1:1335798219:web:fe5d3789b410d63296ae4e"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
   };
 
 
