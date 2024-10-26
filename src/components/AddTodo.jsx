@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTodo, clearAllTodo } from "../features/todo/todoSlice";
+import ViewTodos from './ViewTodos'
 
 function AddTodo() {
   const [text, setText] = useState("");
@@ -31,6 +32,7 @@ function AddTodo() {
           Clear All
         </button>
       </form>
+      <ViewTodos/>
     </div>
   );
 }
